@@ -1,0 +1,47 @@
+Notas sobre proyecto:
+Proyecto para conectar con SQLServer y hacer registro de nombres
+
+public string connectionString = @"Data Source=kevin\SQLEXPRESS;Initial Catalog=dato;Integrated Security=True";
+
+
+ using (SqlConnection connection = new SqlConnection(connectionString))
+{
+    connection.Close();
+}
+
+using (SqlCommand command = new SqlCommand(insertQuery, connection))
+{
+    command.Parameters.AddWithValue("@Nombre", "Juan");
+    command.ExecuteNonQuery();
+}
+
+
+
+public class InsertDatos
+{
+    private readonly SqlConnection connection;
+    private readonly string insertQuery = "INSERT INTO dato (name) VALUES (@nombre)";
+
+    public InsertDatos(SqlConnection dbConnection)
+    {
+        connection = dbConnection;
+    }
+
+    public void InsertName(string nombre)
+    {
+        connection.Open();
+        using (SqlCommand command = new SqlCommand(insertQuery, connection))
+        {
+            command.Parameters.AddWithValue("@nombre", nombre);
+            command.ExecuteNonQuery();
+        }
+        connection.Close();
+    }
+}
+
+
+Ahora un Update para la base de datos datos. Solo modificar el nombre
+
+Queda pendiente las consultas select para mostrar los datos en la pantalla de consola
+
+Luego procederia a expandir el proyecto a cada campo de la version 1. Y mejorar mucho mas todo lo realizado hasta ese punto
