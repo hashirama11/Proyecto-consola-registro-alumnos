@@ -470,19 +470,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kevin\\.nuget\\packages\\": {}
+    "/home/kevin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\Proyecto consola-registros-alumnos\\console-registros-alumnos\\console-registros-alumnos.csproj",
+      "projectUniqueName": "/home/kevin/Documentos/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/console-registros-alumnos.csproj",
       "projectName": "console-registros-alumnos",
-      "projectPath": "D:\\Proyectos\\Proyecto consola-registros-alumnos\\console-registros-alumnos\\console-registros-alumnos.csproj",
-      "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\Proyecto consola-registros-alumnos\\console-registros-alumnos\\obj\\",
+      "projectPath": "/home/kevin/Documentos/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/console-registros-alumnos.csproj",
+      "packagesPath": "/home/kevin/.nuget/packages/",
+      "outputPath": "/home/kevin/Documentos/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/kevin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -500,11 +500,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -532,7 +527,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,8 @@
+{
+    "ConexionBaseDeDatos": {
+      "Servidor": "localhost",
+      "BaseDeDatos": "datos",
+      "Usuario": "sa",
+      "Contraseña": "TurinTurambar11"
+    }
+  }

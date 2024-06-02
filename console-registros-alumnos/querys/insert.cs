@@ -8,18 +8,22 @@ using System.Security.Cryptography.X509Certificates;
 
 //Referecnias de archivos del proyecto
 using funciones;
+using configuracion;
+using querysprom;
 
 namespace insert
 {
     public class insertDato
     {
-        public string connectionString = @"Data Source=Turin\SQLEXPRESS;Initial Catalog=dato;Integrated Security=True";
-        private readonly string insertQuery = "INSERT INTO identificacion (id, name) VALUES (@id, @name)";
+        // Querys SqlServer del programa
+        querysProm q = new querysProm();
+        //
         funcionesProyecto a = new funcionesProyecto();
+        conexionProgram conn = new conexionProgram();
         public  insertDato()
         {
             
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = new SqlConnection(conn.obtenerconnL()))
             {
                 connection.Open();
                 Console.WriteLine("Ingrese el id asignado al nuevo Alumno");
@@ -27,7 +31,7 @@ namespace insert
                 Console.WriteLine("Ingrese el nombre del nuevo Alumno");
                 string? nameU = a.idName();
 
-                using (SqlCommand command = new SqlCommand(insertQuery, connection))
+                using (SqlCommand command = new SqlCommand(q.queryinsert(), connection))
                 {
                     command.Parameters.AddWithValue("@id", idU); // Valor del ID
                     command.Parameters.AddWithValue("@name", nameU); // Valor del nombre
