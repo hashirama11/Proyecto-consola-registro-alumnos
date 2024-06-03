@@ -18,5 +18,12 @@ namespace funciones
             nameU = Convert.ToString(Console.ReadLine());
             return nameU;
         }
+
+        public decimal? nota()
+        {
+            decimal? notaU;
+            notaU = Convert.ToDecimal(Console.ReadLine());
+            return notaU;
+        }
     }
 }

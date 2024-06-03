@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wc5ypJJMa+JWA556abCfr3BxB6UsyV69BhwFyHSJA1155i9aMggVRtzzD9oKp7ovAibVEa1u7hm3+TXKbgLTXg==",
+  "dgSpecHash": "LRdi94u5zHvfmHfbh3LjfBU/wFS52qD2nkqmzvoWS88n34n1mUUwh7Yk8dqNQxgsEfs+5DJnsTYU0dLQhcqUeg==",
   "success": true,
-  "projectFilePath": "/home/kevin/Documentos/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/console-registros-alumnos.csproj",
+  "projectFilePath": "/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/console-registros-alumnos.csproj",
   "expectedPackageFiles": [
     "/home/kevin/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/home/kevin/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",

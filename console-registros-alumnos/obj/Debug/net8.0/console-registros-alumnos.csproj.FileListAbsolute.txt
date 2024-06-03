@@ -43,3 +43,26 @@ d:/Proyectos/Proyecto consola-registros-alumnos/console-registros-alumnos/obj/De
 /home/kevin/Documentos/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.pdb
 /home/kevin/Documentos/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.genruntimeconfig.cache
 /home/kevin/Documentos/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/ref/console-registros-alumnos.dll
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/console-registros-alumnos
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/console-registros-alumnos.deps.json
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/console-registros-alumnos.runtimeconfig.json
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/console-registros-alumnos.dll
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/console-registros-alumnos.pdb
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/System.Data.SqlClient.dll
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.csproj.AssemblyReference.cache
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.GeneratedMSBuildEditorConfig.editorconfig
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.AssemblyInfoInputs.cache
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.AssemblyInfo.cs
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.csproj.CoreCompileInputs.cache
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.sourcelink.json
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.csproj.CopyComplete
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.dll
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/refint/console-registros-alumnos.dll
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.pdb
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/console-registros-alumnos.genruntimeconfig.cache
+/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/Debug/net8.0/ref/console-registros-alumnos.dll

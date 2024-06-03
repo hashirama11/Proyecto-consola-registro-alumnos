@@ -1,0 +1,10 @@
+Proyecto de consola.
+
+Registros de alumnos. Datos fundamentales. Control de notas. servicios de maniulacion de datos. interfaz grafica de consola atractiva.
+
+Usa Sqlserver como servidor y gestor de base de datos.
+Desarrollado para correr en linux y windows.
+
+100% modularidad en su dise;o. Robustes y escalable.
+
+Es el resultado del primer programa de consola con la misma finalidad.

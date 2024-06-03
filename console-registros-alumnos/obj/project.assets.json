@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kevin/Documentos/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/console-registros-alumnos.csproj",
+      "projectUniqueName": "/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/console-registros-alumnos.csproj",
       "projectName": "console-registros-alumnos",
-      "projectPath": "/home/kevin/Documentos/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/console-registros-alumnos.csproj",
+      "projectPath": "/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/console-registros-alumnos.csproj",
       "packagesPath": "/home/kevin/.nuget/packages/",
-      "outputPath": "/home/kevin/Documentos/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/",
+      "outputPath": "/home/kevin/Documentos/PROGRAMACION C#/Proyecto consola-registro-alumnos/Proyecto-consola-registro-alumnos/console-registros-alumnos/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kevin/.nuget/NuGet/NuGet.Config"

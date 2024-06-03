@@ -3,6 +3,7 @@ using System;
 using delete;
 using insert;
 using update;
+using menusecundario;
 
 
 namespace menuU
@@ -11,6 +12,7 @@ namespace menuU
     {
         bool init = false;
         int i;
+        insertDato a = new insertDato();
         public menuUsuario()
         {
             try
@@ -18,12 +20,12 @@ namespace menuU
                 while (!init)
                 {
                     Console.WriteLine($"Seleccione una opcion del Menu");
-                    Console.WriteLine("(1) Ingresar un nuevo ALUMNO\n(2) Eliminar Alumno existente\n(3) Actualizar lo datos de un Alumno\n(4) Mostrar Registros\n(5)Terminar Programa");
+                    Console.WriteLine("(1) Ingresar un nuevo ALUMNO\n(2) Eliminar Alumno existente\n(3) Actualizar lo datos de un Alumno\n(4) Mostrar Registros\n(5)Ingresar notas de los alumnos registrados\n(6)Terminar Programa");
                     i = Convert.ToInt32(Console.ReadLine());
                     switch(i)
                     {
                         case 1:
-                        insertDato a = new insertDato();
+                        a.insertDatoidentificacion();
                         break;
                         case 2:
                         deleteDato b = new deleteDato();
@@ -34,6 +36,9 @@ namespace menuU
                         case 4:
                         continue;
                         case 5:
+                        a.insertDatomaterias();
+                        break;
+                        case 6:
                         init = !init;
                         break;
                     }
