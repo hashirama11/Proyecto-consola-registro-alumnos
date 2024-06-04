@@ -13,9 +13,31 @@ namespace menusecundario
 {
     public class Menusecundario
     {
-        public void mensaje()
+        bool init = false;
+        int i;
+        public void menuDatosU()
         {
-            Console.WriteLine("Continuar");
+            try
+            {
+                while (!init)
+                {
+                    Console.WriteLine("Seleccione la accion a realizar");
+                    Console.WriteLine($"(1) Ingresar planilla completa de alumno \n (2) Ingresar datos especificos de un alumno");
+                    i = Convert.ToInt32(Console.ReadLine());
+
+                    switch (i)
+                    {
+                        case 1:
+                        break;
+                        case 2:
+                        break;
+                    }
+                }
+
+            }catch(Exception e){Console.WriteLine(e.Message);}
+            
+            
+            
         }
     }
 }

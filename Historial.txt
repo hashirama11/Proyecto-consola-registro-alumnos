@@ -1,0 +1,13 @@
+03/05/24 Creacion de archivo de HISTORIAL
+    -- Hasta la fecha
+        - Menu de usuario
+        - Creacion de menu secundario para opciones mas avanzadas
+        - Carpeta funciones --> Directorio de clases con funciones para el proyecto.
+        La finalidad de este directorio es ser cajon de herramientas para la creacion
+        de clases, metodos de clases, escalabilidad del proyecto.
+        - Directorio querys --> Directorio donde estan contenidas las clases CRUD del proyecto
+        - Directorio querysSqlserver --> Directorio donde se almacenan las consulatas sqlserver del proyecto
+        - Directorio conexionJson --> Directorio donde se almacenan las cadenas de conexion. Queda pendiente
+        contener aqui una clase de conexion para que otras clases, metodos puedan usar la conexion.
+
+03/05/24 Desarrollo de insert, delete, update de las 2 tablas existentes de sqlserver.

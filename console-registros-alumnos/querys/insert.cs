@@ -11,6 +11,7 @@ using funciones;
 using configuracion;
 using querysprom;
 using Microsoft.SqlServer.Server;
+using System.Globalization;
 
 namespace insert
 {
@@ -29,15 +30,17 @@ namespace insert
             using (SqlConnection connection = new SqlConnection(conn.obtenerconnL()))
             {
                 connection.Open();
-                Console.WriteLine("Ingrese el id asignado al nuevo Alumno");
-                int idU = a.idUsuario();
-                Console.WriteLine("Ingrese el nombre del nuevo Alumno");
-                string? nameU = a.idName();
-
+                
                 using (SqlCommand command = new SqlCommand(q.queryinsert(), connection))
                 {
-                    command.Parameters.AddWithValue("@id", idU); // Valor del ID
-                    command.Parameters.AddWithValue("@name", nameU); // Valor del nombre
+                    command.Parameters.AddWithValue("@id", a.idUsuario()); // Valor del ID
+                    command.Parameters.AddWithValue("@name", a.idName()); // Valor del nombre
+                    command.Parameters.AddWithValue("@apellidos", a.apeU());
+                    command.Parameters.AddWithValue("@email", a.emailU());
+                    command.Parameters.AddWithValue("@direccion", a.addresU());
+                    command.Parameters.AddWithValue("@telefono", a.phoneU());
+                    command.Parameters.AddWithValue("observaciones", a.obU());
+                    command.Parameters.AddWithValue("@etapa", a.etaU());
                     command.ExecuteNonQuery();
                     
                 }
@@ -58,7 +61,7 @@ namespace insert
                 string[] campos = new string[13]{"Id materia","Id identificacion","Castellano","Matematicas","Quimica","Fisica","Historia","Dibujo","Arte","Salud","Ingles","Biologia","Computacion",};
                              
                 
-                idU[0] = idU[1] = a.idUsuario();
+                idU[0] = a.idUsuario();
                 
                 
                 Console.WriteLine("Ingrese la nota de cada materia respectiva");
@@ -72,8 +75,8 @@ namespace insert
 
                 using (SqlCommand command = new SqlCommand(q.queryinsertmaterias(), connection))
                 {
-                    command.Parameters.AddWithValue("@idmateria", idU[0]); // Valor del ID
-                    command.Parameters.AddWithValue("@identificacionID", idU[1]); // Valor del nombre
+                    command.Parameters.AddWithValue("@idmateria", idU[0]); // Valor del ID de la tabla
+                    command.Parameters.AddWithValue("@identificacionID", idU[0]); // Valor de Id de vinculacion
                     command.Parameters.AddWithValue("@castellano", notaG[0]);
                     command.Parameters.AddWithValue("@matematicas", notaG[1]);
                     command.Parameters.AddWithValue("@quimica", notaG[2]);

@@ -6,7 +6,7 @@ namespace querysprom
     public class querysProm
     {
         // CRUD de la tabla "identificacion" de la base de datos "dato"
-        private readonly string insertQuery = "INSERT INTO identificacion (id, nameAlumno) VALUES (@id, @name)";
+        private readonly string insertQuery = "INSERT INTO identificacion (id, nameAlumno, apellidos, email, direccion, telefono, observaciones, etapa) VALUES (@id, @name, @apellidos, @email, @direccion, @telefono, @observaciones, @etapa)";
         private readonly string deleteQuery = "DELETE FROM identificacion WHERE id = @id";
         private readonly string updateQuery = "UPDATE identificacion SET nameAlumno = @newName WHERE id = @id";
 

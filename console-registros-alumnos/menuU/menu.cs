@@ -4,7 +4,7 @@ using delete;
 using insert;
 using update;
 using menusecundario;
-
+using funciones;
 
 namespace menuU
 {
