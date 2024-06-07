@@ -1,9 +1,35 @@
+// Dependencias
 using System;
+using mapeotablas;
+
+
+// Referecnias
+using select;
 
 namespace funciones
 {
     public class funcionesProyecto
     {
+        // Muestra de los registros ingresados en la tabla identificacion
+        public void muestraIden()
+        {
+            selectDAto sele = new selectDAto();
+            List<tablaIdentificacion> selelist = sele.selectregistro();
+
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"{selelist[i].nameAlumno}\t{selelist[i].apellidos}\t{selelist[i].email}\t{selelist[i].direccion}\t{selelist[i].telefono}\t{selelist[i].observaciones}\t{selelist[i].etapa}");
+            }
+
+
+        }
+        // Muestra de los registros de la tabla sqlserver. Para asi saber cuantas filas van registradas
+        public void conteoRegistros()
+        {
+            selectDAto numid = new selectDAto();
+            int n = numid.selectid();
+            Console.WriteLine($"Registros actuales de la base de datos identificacion {n}");
+        }
         
         public int idUsuario()
         {

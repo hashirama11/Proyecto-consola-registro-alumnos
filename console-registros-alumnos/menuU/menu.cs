@@ -3,6 +3,7 @@ using System;
 using delete;
 using insert;
 using update;
+using select;
 using menusecundario;
 using funciones;
 
@@ -13,6 +14,8 @@ namespace menuU
         bool init = false;
         int i;
         insertDato a = new insertDato();
+
+        funcionesProyecto conteo = new funcionesProyecto();
         public menuUsuario()
         {
             try
@@ -25,17 +28,22 @@ namespace menuU
                     switch(i)
                     {
                         case 1:
+                        conteo.conteoRegistros();
                         a.insertDatoidentificacion();
                         break;
                         case 2:
+                        conteo.conteoRegistros();
                         deleteDato b = new deleteDato();
                         break;
                         case 3:
+                        conteo.conteoRegistros();
                         updateDato c  = new updateDato();
                         break;
                         case 4:
-                        continue;
+                        conteo.muestraIden();
+                        break;
                         case 5:
+                        conteo.conteoRegistros();
                         a.insertDatomaterias();
                         break;
                         case 6:

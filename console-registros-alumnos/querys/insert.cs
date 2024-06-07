@@ -10,7 +10,6 @@ using System.Security.Cryptography.X509Certificates;
 using funciones;
 using configuracion;
 using querysprom;
-using Microsoft.SqlServer.Server;
 using System.Globalization;
 
 namespace insert

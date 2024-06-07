@@ -25,18 +25,21 @@ namespace update
 
         public updateDato()
         {
+            
             using (SqlConnection connection = new SqlConnection(conn.obtenerconnL()))
             {
                 connection.Open();
-                Console.WriteLine("Ingrese id del Alumno a Modificar");
-                int i = a.idUsuario();
-                Console.WriteLine("Ingrese el nuevo nombre del Usuario");
-                string? newName = a.idName();
 
                 using (SqlCommand command = new SqlCommand(q.queryupdate(), connection))
                 {
-                    command.Parameters.AddWithValue("@id", i); // Valor del ID
-                    command.Parameters.AddWithValue("@newName", newName); // Valor del ID
+                    command.Parameters.AddWithValue("@id", a.idUsuario()); // Valor del ID
+                    command.Parameters.AddWithValue("@newName", a.idName()); // Valor del ID
+                    command.Parameters.AddWithValue("@apeU", a.apeU());
+                    command.Parameters.AddWithValue("@email", a.emailU());
+                    command.Parameters.AddWithValue("@addres", a.addresU());
+                    command.Parameters.AddWithValue("@phoneU", a.phoneU());
+                    command.Parameters.AddWithValue("@obeU", a.obU());
+                    command.Parameters.AddWithValue("@etaU", a.etaU());
                     command.ExecuteNonQuery();
                     
                 }

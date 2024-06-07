@@ -41,5 +41,14 @@ CREATE TABLE Materias (
         ON UPDATE CASCADE
 );
 
+-- Para mostrar datos registrados
+SELECT * FROM identificacion;
+SELECT * FROM Materias;
 
--- Trigger que vinvula los id de las tablas identificacion y materias
+-- Seccion con query que informa sobre el numero de registros segun id de la tabla identificacion
+
+SELECT COUNT(*) id FROM identificacion;
+SELECT COUNT(*) FROM identificacion;
+
+-- Ultimo id
+SELECT IDENT_CURRENT('id') AS identificacion; --ESto queda pendiente
